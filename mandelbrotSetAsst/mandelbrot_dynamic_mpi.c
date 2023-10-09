@@ -97,7 +97,7 @@ int main(int argc, char* argv[]) {
             }
 
             // Save the final grayscale image as a PPM file
-            save_ppm_image("mandelbrot3.ppm", final_image, IMAGE_WIDTH, IMAGE_HEIGHT);
+            save_ppm_image("mandelbrot_dynamic.ppm", final_image, IMAGE_WIDTH, IMAGE_HEIGHT);
 
             // Cleanup
             free(final_image);
